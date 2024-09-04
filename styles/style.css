@@ -123,22 +123,23 @@ h1, .price p {
 
 @media (max-width: 650px) {    
     body {
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
 
     img {
         display: block;
         border-radius: 10px 10px 0 0;
         margin: auto;
+        width: 350px;
     }
 
     main {
-        margin: auto;
-        display: block;
+        margin: 0 7.5px;
+        padding: 25px;
+        max-width: 350px;
+        height: fit-content;
         border-radius: 0 0 10px 10px;
     }
 
-    h1 {
-        
-    }
 }
